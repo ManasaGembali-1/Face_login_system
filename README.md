@@ -60,3 +60,14 @@ This project implements a secure face recognition system that allows users to re
 - python encode_faces.py
 - python login.py
 - press q at any time
+
+---
+
+## Install dependencies with:
+
+- pip install face_recognition opencv-python numpy
+- IF PYTHON VERSION DONOT SUPPORT THEN,
+- py -3.10 -m venv login_env
+- Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+- .\login_env\Scripts\activate
+- pip install face_recognition opencv-python numpy
